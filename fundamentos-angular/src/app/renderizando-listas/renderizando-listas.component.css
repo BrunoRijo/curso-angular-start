@@ -16,7 +16,7 @@
     color: white;
 }
 
-.lista_produtos .esgotado{
+.lista_produtos.esgotado{
     background-color: black;
-    text-decoration-color: red;
+    color: red;
 }
