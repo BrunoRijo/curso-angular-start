@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -23,7 +23,5 @@ export class PaginaComParametrosComponent {
       this.idade = Number(params.get("id"));
       this.nome = params.get("id");
     });
-  }
-
-  
+  };  
 }
