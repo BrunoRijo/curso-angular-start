@@ -6,6 +6,7 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './pagina-com-parametros.component.html',
   styleUrls: ['./pagina-com-parametros.component.css']
 })
+
 export class PaginaComParametrosComponent {
 
   id : number | null = null;
