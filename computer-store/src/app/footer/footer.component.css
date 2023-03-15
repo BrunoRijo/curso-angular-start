@@ -1,0 +1,43 @@
+.footer {
+    padding: 0;
+    flex-flow: row wrap;
+    background-color: lightgray;        
+    color: gray;
+    font-size: 18px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 0px;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 0px;
+    background-color: lightgray;    
+    font-weight: bold;
+    padding: 10px;
+    color: gray;
+}
+
+.footer__title {
+    font-size: 22px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 5px;
+}
+
+.footer__about-text {
+    width: 400px;
+    text-align: justify;
+}
+
+.footer i {
+    color: darkblue;
+}
+
+.footer li {
+    margin: 10px 0;
+}
