@@ -4,9 +4,9 @@ import { IProduto, produtos } from './produtos';
 @Injectable({
   providedIn: 'root'
 })
+
 export class ProdutosService {
   produtos: IProduto[] = produtos;
-  produto : IProduto | undefined;
 
   constructor() {}
 
@@ -15,7 +15,6 @@ export class ProdutosService {
   }
 
   getOne(produtoId : number){
-    this.produto = produtos.find(produto => produto.id = produtoId);
-    return this.produto;
+    return this.produtos.find(produto => produto.id === produtoId);
   }
 }
